@@ -1,0 +1,103 @@
+- commands are prefixed with a [count]. eg: 2w NOT w2
+
+glossary
+
+- move to start of next word: w
+- move to start of prev word: b
+- move to end of a word: e
+- move to end of prev word: ge
+- move to the first non-blank char: ^
+
+<------------------------------------>
+
+- find a char (to the right): f<char>, eg: fn 
+- find a char (to the left): F<char>
+- get 'to' a char (to the right): t<char>
+- get 'to' a char (to the left): T<char>
+- repeat (find/to): ;
+- repeat (find/to) in the opposite direction: ,
+** ref: usr_03.txt (Moving to a char) **
+
+<------------------------------------>
+
+- display file name: ':f', CTRL-G
+- match pairs (default "(:),{:},[:]"): % 
+- move to a specific line: [count]G
+- move to a line but not as specifically: [count]%, eg: 50%
+- move not to a specific line but to an area seen on the screen:
+
+      +---------------------------+
+    H --> | text sample text      |
+      | sample text       |
+      | text sample text      |
+      | sample text       |
+    M --> | text sample text      |
+      | sample text       |
+      | text sample text      |
+      | sample text       |
+    L --> | text sample text      |
+      +---------------------------+
+
+Hints: "H" stands for Home, "M" for Middle and "L" for Last.
+
+<------------------------------------>
+
+- scroll down: CTRL-U
+- scroll down (one line): CTRL-Y
+- scroll up: CTRL-D
+- scroll up (one line): CTRL-E
+- scroll forward: CTRL-F
+- scroll backward: CTRL-B
+
+* note: scrolling down moves cursor upwards in the file
+* note: forward and backward scrolling display the last 2 lines seen before
+        scrolling. 
+
+- A common issue is that after moving down many lines with "j" your cursor is at
+the bottom of the screen.  You would like to see the context of the line with
+the cursor.  That's done with the "zz" command.
+
+  +------------------+     +------------------+
+  | some text    |     | some text      |
+  | some text    |     | some text      |
+  | some text    |     | some text      |
+  | some text    |   zz  -->   | line with cursor |
+  | some text    |     | some text      |
+  | some text    |     | some text      |
+  | line with cursor |     | some text      |
+  +------------------+     +------------------+
+
+The "zt" command puts the cursor line at the top, "zb" at the bottom.
+
+<------------------------------------>
+
+- to search forward, backward: /<word>, ?<word>
+- to repeat search forward, backword: n, N
+- to ignore(don't ignore) case when searching: set (no)ignorecase
+- to search a word without spelling it out forward, backward: 
+  "Place cursor on word and then:" *, #
+  eg: A_very_long_function_name, A_very_long_function_name
+  type '*' or '#' (to search backwards) by placing the cusor on
+  A_very_long_function_name
+
+- to find word that only end in 'the': 'the\>'
+- to find word that only start with 'the': '\<the'
+- to find only 'the': '\<the\>'
+
+* note: * and # use \<word\> when searching, to not do so use: g* and g#
+
+<------------------------------------>
+
+- to set highlighting: set hlsearch
+- to display match as you are searching: set incsearch
+- to begin search from SOF after end of file is reached: set wrapscan
+
+<------------------------------------>
+
+To be continued at : BEGINNING AND END OF A LINE (usr_txt03)
+
+
+
+
+
+

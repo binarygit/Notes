@@ -1,0 +1,46 @@
+keywords: Git, Testing, Look-Later, CSS
+EDITOR=vim rails credentials:edit
+
+
+Look-Later
+
+- https://yardoc.org/
+- SELECT name
+   FROM world
+   WHERE name LIKE '%a%' AND name LIKE '%e%' AND name LIKE '%i%' AND name LIKE '%o%'
+   AND name LIKE '%u%'AND name NOT LIKE '% %'
+
+   from: https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial
+         no. 13
+
+Testing
+
+- https://www.codewithjason.com/articles/
+- https://github.com/thoughtbot/factory_bot
+
+Git
+
+- delete last commit: git reset --hard HEAD^
+- rename branch: git branch -m <new name>
+- get number of commits between start commit & 
+  end: git rev-list <start-hash>...<end-hash> | wc -l
+- delete remote branch: git push origin :<branch-name>
+  eg: git push origin :new-landing
+- amend last commit: git commit --amend
+  when you want to add files that you forgot, 
+  just stage them and they will be picked up
+
+CSS
+
+- Interview with css creator: https://dev.opera.com/articles/css-twenty-years-hakon/
+  this article contains helpful links and ideas. You should read the original
+  proposal and the interviewee's thesis comparing other styling approaches.
+
+- https://www.wiumlie.no/1993/telektronikk-4-93/
+  a site by Håkon W Lie. The ideas here are facinating. My world today
+  envisioned two decades ago.
+
+- https://www.w3.org/Style/CSS/learning
+  lists resources to learn CSS.
+    https://www.kevinpowell.co/article/get-better-at-css/
+    this article from the above site is gold.
