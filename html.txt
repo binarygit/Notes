@@ -1,0 +1,64 @@
+These are brief descriptions of things I learned going through this MDN
+module:
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
+
+===========
+
+1. Getting Started With Html
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started]
+
+This chapter describes the basic anatomy of an HTML element and an HTML
+document. What an element/tag is, how to write attributes, what is valid HTML etc. 
+It also offers a consice description of different integral tags such as <html>, <title>, <meta> etc.
+
+===========
+
+2. What's in the head? Metadata in HTML
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML]
+
+This chapter focuses on the various tags you can use inside the <head>. It
+also defines metadata as 'data that describes data'. 
+
+It provides techniques on:
+- How to make websites display characters of different languages.
+- Adding an author and a consice page description that is picked up by search
+  engines.
+- informing screen readers what the language of the page's content is in or
+  specific parts of it. 
+- adding a favicon(s) that is displayed by browsers when a page is bookmarked.
+
+==========
+
+3. HTML text fundamentals
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals]
+
+Provides brief description on the use of <h#>, <p>, <ul/ol>, <emphasis>,
+<strong>, and gives context and advice on when to use <i>, <b>, <u> tags.
+Stresses on the importance of using correct and only necessary HTML tags to
+convey information as this is used by SEO engines and screen readers. 
+
+==========
+
+4. Creating Hyperlinks
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks]
+
+Describes what a hyperlink is, anatomy of the <a> tag, introduces absolute and
+relative paths of URL's, and how to open a download dialog/email client from a
+link.
+
+=========
+
+5. Advanced text formatting
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting]
+
+Describes more ways to display text. Covers description lists, quoting/citing,
+code blocks, date/time, address, superscript and subscript.
+
+========
+
+6. Document and Website Structure
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure]
+
+Describes various block/section level tags that are used to give semantic
+meaning to the whole page/site. Introduces how to plan the structure of a
+website.
