@@ -62,3 +62,14 @@ code blocks, date/time, address, superscript and subscript.
 Describes various block/section level tags that are used to give semantic
 meaning to the whole page/site. Introduces how to plan the structure of a
 website.
+
+========
+
+7. Debugging HTML
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML]
+
+provides different examples of how a browser might interpret wrong html and
+links to a W3C site which takes HTML and tells you whether there are any
+mistakes in it.
+
+
