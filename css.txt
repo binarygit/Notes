@@ -1,0 +1,37 @@
+These are brief descriptions of things I learned going through this MDN
+module:
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps
+
+=========
+
+1. What is CSS?
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS]
+
+Defines what kind of language CSS is. It also instructs where to find
+reference to various properties, modules and the spec. Also includes a video
+about the default browser styles.
+
+========
+
+2. Getting Started with CSS
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started]
+
+Provides a very detailed and high level overview of applying CSS to the HTML.
+Covers selectors, styling based on where tags are in the HTML, the state of a
+certain tag etc.
+
+=======
+3. How CSS is structured
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured]
+
+Goes into more details about selectors, property-values, @rules, shorthands
+etc.
+
+=======
+
+4. How CSS works
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works]
+
+Provides a very nice overview of how CSS is parsed and then rendered by the
+browser.
+
