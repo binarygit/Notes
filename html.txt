@@ -73,3 +73,38 @@ links to a W3C site which takes HTML and tells you whether there are any
 mistakes in it.
 
 
+******************
+These are brief descriptions of things I learned going through this MDN
+module:
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding
+
+===========
+
+1. Images in HTML
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML]
+
+Provides an introduction to img tag in HTML and best practices. Also, goes
+through a lot of ways text can be used for assesibility purposes regarding to
+images.
+
+==========
+
+2. Video and audio content
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content]
+
+A sort of indepth article that covers embedding audio and video content in a
+webpage. Goes over the various ways of fine tuning this and the lists the many
+things to keep in mind so that they are assessible and SEO optimized.
+(Never realized this can be this complicated. A lot of stuff in this article
+points to other articles that deal with this stuff in detail.)
+
+==========
+
+3. From object to iframe — other embedding technologies
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies]
+
+A very through introduction to iframe, object and embed. These too are very
+complicated topics and this article is a good starting point. The 2nd task in
+the assessment asks you to display subs in a video which is an intresting
+challenge, if you ever need to.
+
