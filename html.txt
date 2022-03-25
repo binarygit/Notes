@@ -108,3 +108,23 @@ complicated topics and this article is a good starting point. The 2nd task in
 the assessment asks you to display subs in a video which is an intresting
 challenge, if you ever need to.
 
+==========
+
+4. Adding Vector Graphics to the web
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web]
+
+A short introduction to SVG and its advantages and disadvantages. Provides
+useful links to other articles that deal with the subject more
+comprehensively. 
+
+===========
+
+5. Responsive Images 
+[https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images]
+
+Talks about the 'art direction problem' which is solved by providing multiple
+versions of the same image either cropped or zoomed in someway when viewed in
+different viewport sizes. Also the 'resolution switching problem' which is
+solved by providing the same image but in different resolutions according to
+the screen res that the image is viewed on. 
+Instructs on the various tags and methods available to solve these problems.
