@@ -92,3 +92,42 @@ article.
 Describes some very useful combinators to be familiar with: Descendant, Child,
 Adjacent sibling and General sibling.
 
+
+========
+
+3. The box model
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model]
+
+Describes the box model throughly. The box model is how the boxes (elements)
+of in a page are defined and behave. There is the default and the alternate
+box model. 
+
+====
+
+skipped 4, 5, 6
+
+======
+
+7. Values and Units
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units]
+
+A really important article that introduces how em, rem and % work. Also it
+defines what 'datatypes' or 'value types' are and describes the most commonly
+implemented datatypes. 
+
+======
+
+8. Sizing Items in CSS
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS]
+
+Article discusses how to size things using CSS. From setting specific sizes
+and their pitfalls to using min- max-, viewport units etc. It also talks about
+the intrinsic and extrinsic sizes of elements.
+
+=====
+
+9. Images, media, and form elements
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements]
+
+Talks about sizing images and form elements. These are called replaced
+elements as css cannot alter their internal dimensions.
