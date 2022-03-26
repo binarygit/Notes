@@ -35,3 +35,60 @@ etc.
 Provides a very nice overview of how CSS is parsed and then rendered by the
 browser.
 
+************
+
+These are brief descriptions of things I learned going through this MDN
+module:
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks
+
+=========
+
+1. Cascade and Inheritance (& Specificity)
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance]
+
+A brief description on inheritance, cascade and specificity. Explains really
+well how the browser calculates which style to apply to an element. Provides a
+really good description of the 'inherit' value and how to use it well.
+
+=========
+
+2. CSS Selectors
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors]
+
+Provides brief intro to various types of selectors available in CSS. Contains
+a reference on most of these selectors and links to articles that talk about
+them more throughly.
+
+--
+
+2.1 Type, Class and ID Selectors
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors]
+
+Covers type/element selectors, the universal selector, class and ID selectors.
+
+--
+
+2.2 Attribute Selectors
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors]
+
+Covers selecting tags using attr selectors. They look like: p[class='a'].
+Quite a useful article that covers matching them using regex and other
+natively available ways.
+
+-- 
+
+2.3 Pseudo-classes and pseudo-elements
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements]
+
+Introduces pseudo-classes and pseudo-elements. Explains really well what they
+are and when/how to use them. Provides a reference of them in the end of the
+article.
+
+--
+
+2.4 Combinators
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators]
+
+Describes some very useful combinators to be familiar with: Descendant, Child,
+Adjacent sibling and General sibling.
+
