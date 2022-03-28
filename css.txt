@@ -131,3 +131,21 @@ the intrinsic and extrinsic sizes of elements.
 
 Talks about sizing images and form elements. These are called replaced
 elements as css cannot alter their internal dimensions.
+
+====
+
+10. Debugging CSS
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS]
+
+Article explains the diffence between the source, and the HTML shown by the
+dev tools. Talks of the various ways that the dev tools can be used to debug
+css. Also links to helpul articles to teach you more about the Dev Tools.
+
+=======
+
+11. Organizing Your CSS
+[https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing]
+
+Goes through a lot of tools and guidelines developed by the Community around
+organizing large stylesheets and facilitating joint workflow. Things like BEM,
+OOCSS, SASS etc
