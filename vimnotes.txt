@@ -90,11 +90,37 @@ The "zt" command puts the cursor line at the top, "zb" at the bottom.
 
 - to set highlighting: set hlsearch
 - to display match as you are searching: set incsearch
-- to begin search from SOF after end of file is reached: set wrapscan
+- to begin search from Start Of File (SOF) after End Of File (EOF) is reached: set wrapscan
 
 <------------------------------------>
 
-To be continued at : BEGINNING AND END OF A LINE (usr_txt03)
+- to search for a word that should be at the beginning of a line: ^<word>
+- to search for a word that should be at the end of a line: <word>$
+- to match any single character: <letter(s)>.<letter(s)> 
+  eg: m.y will match 'may' and y..y will match yaay
+
+<------------------------------------>
+
+- to mark a line/col: m<word>
+- jump to a mark: `<mark>
+- jump to the start of line of a mark: '<mark>
+- jump between the last two jumped marks: ``
+- jump to previous mark: CTRL-O
+- jump to mark before previous mark: CTRL-I/<Tab>
+  eg: 'a, 'b, 'c - CTRL-O will take you to 'b and then CTRL-I will 
+  take you to 'c
+
+- some special marks:
+
+  ' The cursor position before doing a jump
+  " The cursor position when last editing the file
+  [ Start of the last change
+  ] End of the last change
+
+- Look at :marks to view all marks
+
+
+** Fin (usr_txt03) **
 
 
 
